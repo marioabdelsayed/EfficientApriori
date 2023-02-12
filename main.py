@@ -3,7 +3,6 @@ import itertools as iter
 
 
 item_counts = defaultdict(int)
-pair_counts = defaultdict(int)
 with open("C:\\Users\\ACER\\Downloads\\Illinois Classes\\CS412\\Project 1\\categories.txt") as f:
     lines = f.readlines()
 freq = 772
