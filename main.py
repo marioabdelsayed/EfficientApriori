@@ -122,5 +122,3 @@ if __name__ == '__main__':
         list_of_dicts.append(new_dict)
         k += 1
     print(list_of_dicts)
-    print(f"File contains {len(list_of_dicts[0])} frequent 1-itemsets, {len(list_of_dicts[1])} frequent 2-itemsets, "
-          f"and {len(list_of_dicts[2])} frequent 3-itemsets")
