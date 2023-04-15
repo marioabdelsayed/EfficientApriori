@@ -3,9 +3,9 @@ import itertools as iter
 
 
 item_counts = defaultdict(int)
-with open("C:\\Users\\ACER\\Downloads\\Illinois Classes\\CS412\\Project 1\\categories.txt") as f:
+with open("file with data") as f:
     lines = f.readlines()
-freq = 772
+freq = 772 #The desired frequency threshold of frequent itemsets
 
 
 def get_1_itemset():  # get all frequent one itemsets from files with semicolon being the seperator between entries
