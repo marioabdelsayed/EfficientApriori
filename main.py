@@ -3,7 +3,7 @@ import itertools as iter
 
 
 item_counts = defaultdict(int)
-with open("file with data") as f:
+with open("file with data") as f: # path to the file containing data to mine
     lines = f.readlines()
 freq = 772 #The desired frequency threshold of frequent itemsets
 
